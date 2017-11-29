@@ -2,18 +2,13 @@ import React from "react";
 import Helmet from "react-helmet";
 import styled from "styled-components";
 
+import { TextBase } from "../components/text";
 import Footer from "../components/footer";
 
 import "./index.css";
 
 const Wrapper = styled.div`
-  font-size: 10px;
-  @media (min-width: 700px) {
-    font-size: 12px;
-  }
-  @media (min-width: 1000px) {
-    font-size: 14px;
-  }
+  ${TextBase};
 `;
 
 export default ({ children }) => (

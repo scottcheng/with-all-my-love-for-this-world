@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 const styles = ({ padding, margin }) => `
-  padding: ${padding};
+  padding: 0 ${padding};
   margin: 0 auto ${margin};
   &:first-child {
     margin-top: ${margin};
@@ -13,7 +13,7 @@ export default styled.div`
   max-width: 1200px;
 
   @media (max-width: 699px) {
-    ${styles({ padding: "5px", margin: "3em" })};
+    ${styles({ padding: "10px", margin: "3em" })};
 
     ${({ fullPage }) =>
       fullPage &&
@@ -23,7 +23,7 @@ export default styled.div`
   }
 
   @media (min-width: 700px) and (max-width: 999px) {
-    ${styles({ padding: "15px", margin: "6em" })};
+    ${styles({ padding: "20px", margin: "6em" })};
 
     ${({ fullPage }) =>
       fullPage &&
@@ -33,7 +33,7 @@ export default styled.div`
   }
 
   @media (min-width: 1000px) {
-    ${styles({ padding: "30px", margin: "9em" })};
+    ${styles({ padding: "40px", margin: "9em" })};
 
     ${({ fullPage }) =>
       fullPage &&

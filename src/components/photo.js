@@ -6,11 +6,9 @@ const Image = styled.img`
   user-select: none;
   pointer-events: none;
 
-  // TODO: support multiple photo in a row
-  display: block;
+  display: inline-block;
   max-width: 100%;
   max-height: 95vh;
-  margin: 0 auto;
 
   ${({ small }) =>
     small &&

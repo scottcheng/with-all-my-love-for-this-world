@@ -8,12 +8,6 @@ import Photo from "../components/photo";
 import Text from "../components/text";
 import { linkify, pad2Digit } from "../util";
 
-const CollectionLink = Text.extend`
-  &:not(:last-child) {
-    margin-bottom: 1em;
-  }
-`;
-
 const collections = [
   "with all my love for this world",
   "the city in my dreams",
@@ -31,11 +25,11 @@ export default () => (
 
     <Section>
       {collections.map((c, i) => (
-        <CollectionLink key={i}>
+        <Text key={i}>
           <Link to={linkify(c)}>
             {pad2Digit(i + 1)}. {c}
           </Link>
-        </CollectionLink>
+        </Text>
       ))}
     </Section>
   </div>

@@ -6,6 +6,7 @@ import Front from "../components/front";
 import Section from "../components/section";
 import Photo from "../components/photo";
 import Text from "../components/text";
+import { linkify, pad2Digit } from "../util";
 
 const CollectionLink = Text.extend`
   &:not(:last-child) {
@@ -15,14 +16,10 @@ const CollectionLink = Text.extend`
 
 const collections = [
   "with all my love for this world",
+  "the city in my dreams",
   "why don't we dance",
-  "long island",
-  "tree portraits",
+  // "tree portraits",
 ];
-
-const linkify = name => `/${name.replace(/ /g, "-").replace(/'/g, "")}`;
-
-const pad2Digit = i => (i < 10 ? `0${i}` : i);
 
 export default () => (
   <div>

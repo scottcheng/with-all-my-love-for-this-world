@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const TextBase = `
   font-family: "adobe-garamond-pro", serif;
@@ -18,4 +18,10 @@ export default styled.div`
   font-style: italic;
   font-size: 1.4em;
   margin: 0 20px;
+
+  ${({ isAsterisk }) =>
+    isAsterisk &&
+    css`
+      font-style: normal;
+    `};
 `;

@@ -7,38 +7,51 @@ import Photo from "../components/photo";
 import Text from "../components/text";
 import { linkify } from "../util";
 
-const DualPhotoFrame = Section.extend`
+const SmallPhotoFrame = Section.extend`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 `;
 
 const TextFrame = Section.extend`
-  @media (max-width: 699px) {
-    text-align: left;
-  }
+  max-width: 750px;
+  text-align: left;
 `;
 
-const isImage = s => s.indexOf(".jpg") >= 0;
+const isText = s => typeof s === "string" && s.indexOf(".jpg") === -1;
+
+const isImage = s => typeof s === "string" && s.indexOf(".jpg") >= 0;
+
+const isAsterisk = s => typeof s === "string" && s.indexOf("✻") === 0;
 
 const Item = ({ data, title }) => {
-  if (Array.isArray(data)) {
-    if (data.every(isImage) && data.length === 2) {
-      return (
-        <DualPhotoFrame>
-          {data.map((d, i) => (
-            <Photo key={i} src={`${linkify(title)}/${d}`} small />
-          ))}
-        </DualPhotoFrame>
-      );
-    }
+  if (Array.isArray(data) && data.every(isImage)) {
+    return (
+      <SmallPhotoFrame>
+        {data.map((d, i) => (
+          <Photo key={i} src={`${linkify(title)}/${d}`} small />
+        ))}
+      </SmallPhotoFrame>
+    );
   }
 
-  if (typeof data === "string" && isImage(data)) {
+  if (isImage(data)) {
     return (
       <Section>
-        <Photo src={`${linkify(title)}/${data}`} />
+        <Photo src={`${linkify(title)}/${data}`} center />
       </Section>
+    );
+  }
+
+  if (Array.isArray(data) && data.every(isText)) {
+    return (
+      <TextFrame fullPage>
+        {data.map((d, i) => (
+          <Text key={i} isAsterisk={isAsterisk(d)}>
+            {d}
+          </Text>
+        ))}
+      </TextFrame>
     );
   }
 
@@ -49,11 +62,17 @@ const Item = ({ data, title }) => {
   );
 };
 
-export default ({ title, content }) => (
+export default ({ title, content, footnotes }) => (
   <div>
     <Front title={title} />
 
     {content.map((d, i) => <Item data={d} title={title} key={i} />)}
+
+    <div style={{ height: "40vh" }} />
+
+    {footnotes ? (
+      <Section>{footnotes.map((n, i) => <div key={i}>{n}</div>)}</Section>
+    ) : null}
 
     <Section>
       <Link to="/">Back</Link>

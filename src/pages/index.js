@@ -20,7 +20,7 @@ export default () => (
     <Front title="with all my love for this world" isIndex />
 
     <Section>
-      <Photo src="cover.jpg" small />
+      <Photo src="cover.jpg" small center />
     </Section>
 
     <Section>

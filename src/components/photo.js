@@ -6,7 +6,7 @@ const Image = styled.img`
   user-select: none;
   pointer-events: none;
 
-  display: inline-block;
+  display: block;
   max-width: 100%;
   max-height: 95vh;
 
@@ -14,6 +14,12 @@ const Image = styled.img`
     small &&
     css`
       max-width: 40%;
+    `};
+
+  ${({ center }) =>
+    center &&
+    css`
+      margin: 0 auto;
     `};
 `;
 

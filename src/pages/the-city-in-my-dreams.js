@@ -6,8 +6,13 @@ import Collection from "../components/collection";
 const content = [
   "DSC09236.jpg",
 
+  ["He adored New York City.", "✻"],
+
+  ["DSC09790.jpg", "DSC09783.jpg"],
+  ["DSC08676.jpg", "DSC09787-.jpg"],
+
   [
-    "He adored New York City. He romanticized it all out of proportion.",
+    "He romanticized it all out of proportion.",
     "To him, no matter what the season was, this was still a town that existed in black and white and pulsated to the great tunes of George Gershwin.",
     "✻",
   ],
@@ -20,7 +25,7 @@ const content = [
 
   ["This is New York. We'll find a place to dance.", "✻✻"],
 
-  ["DSC09780.jpg", "DSC09787.jpg"],
+  ["DSC09787.jpg", "DSC09780.jpg"],
 
   "DSC00586.jpg",
 

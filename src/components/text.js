@@ -23,6 +23,7 @@ export default styled.div`
     isAsterisk &&
     css`
       font-style: normal;
-      font-size: 1em;
+      transform: scale(0.75);
+      transform-origin: 0 50%;
     `};
 `;

@@ -1,4 +1,5 @@
 import React from "react";
+import Helmet from "react-helmet";
 import Link from "gatsby-link";
 
 import Front from "../components/front";
@@ -64,6 +65,10 @@ const Item = ({ data, title }) => {
 
 export default ({ title, content, footnotes }) => (
   <div>
+    <Helmet>
+      <title>{title} | with all my love for this world</title>
+    </Helmet>
+
     <Front title={title} />
 
     {content.map((d, i) => <Item data={d} title={title} key={i} />)}

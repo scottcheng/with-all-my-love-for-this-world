@@ -15,7 +15,7 @@ const SmallPhotoFrame = Section.extend`
 `;
 
 const TextFrame = Section.extend`
-  max-width: 750px;
+  max-width: 760px;
   text-align: left;
 `;
 

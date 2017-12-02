@@ -28,12 +28,10 @@ export default ({ title, isIndex }) => (
   <Section>
     <Title>{title}</Title>
     <Subtitle>
-      {isIndex ? (
+      {isIndex && (
         <div>
           Photos by <a href="http://scottcheng.com/">Scott Cheng</a>
         </div>
-      ) : (
-        <BackLink to="/">←</BackLink>
       )}
     </Subtitle>
   </Section>

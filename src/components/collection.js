@@ -68,7 +68,7 @@ export default ({ title, content, footnotes }) => (
 
     {content.map((d, i) => <Item data={d} title={title} key={i} />)}
 
-    <div style={{ height: "40vh" }} />
+    <div style={{ height: "24em" }} />
 
     {footnotes ? (
       <Section>{footnotes.map((n, i) => <div key={i}>{n}</div>)}</Section>

@@ -13,22 +13,22 @@ export default styled.div`
   max-width: 1200px;
 
   @media (max-width: 699px) {
-    ${styles({ padding: "10px", margin: "3em" })};
+    ${styles({ padding: "10px", margin: "6em" })};
 
     ${({ fullPage }) =>
       fullPage &&
       css`
-        margin: 40vh auto;
+        margin: 6em auto;
       `};
   }
 
-  @media (min-width: 700px) and (max-width: 999px) {
+  @media (min-width: 700px) {
     ${styles({ padding: "20px", margin: "6em" })};
 
     ${({ fullPage }) =>
       fullPage &&
       css`
-        margin: 45vh auto;
+        margin: 12em auto;
       `};
   }
 
@@ -38,7 +38,7 @@ export default styled.div`
     ${({ fullPage }) =>
       fullPage &&
       css`
-        margin: 55vh auto;
+        margin: 24em auto;
       `};
   }
 `;

@@ -55,7 +55,6 @@ const content = [
   "DSC06626.jpg", // thick fog over sea, calif
   "DSC02974.jpg", // misted lake, yellowstone
   "DSC02986.jpg", // waterfall, yellowstone
-  "DSC02987.jpg", // waterfall, yellowstone
   "DSC02892.jpg",
   "DSC02926.jpg",
   "DSC02933.jpg",

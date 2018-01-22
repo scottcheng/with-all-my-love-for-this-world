@@ -40,6 +40,7 @@ const content = [
 
   // flowers and other living things
   "DSC00532.jpg", // joshua trees and sun, joshua tree park
+  "DSC02828.jpg", // clouds, yellowstone
   "DSC01103.jpg", // tree, washington park arboretum, seattle
   "DSC06723.jpg", // trees in the black forest, germany
   "DSC01065.jpg", // pine and cherry blossom, washington park arboretum, seattle
@@ -52,6 +53,12 @@ const content = [
   "DSC04290.jpg", // road, south mono lake
   "DSC04216.jpg", // bush and salt lake, west mono lake
   "DSC06626.jpg", // thick fog over sea, calif
+  "DSC02974.jpg", // misted lake, yellowstone
+  "DSC02986.jpg", // waterfall, yellowstone
+  "DSC02987.jpg", // waterfall, yellowstone
+  "DSC02892.jpg",
+  "DSC02926.jpg",
+  "DSC02933.jpg",
   "DSC06618.jpg", // milky way, crater lake
 
   // dream is over

@@ -59,6 +59,7 @@ const content = [
   "DSC02926.jpg",
   "DSC02933.jpg",
   "DSC06618.jpg", // milky way, crater lake
+  "DSC00483.jpg",
 
   // dream is over
   "DSC05290.jpg", // ocean through window, point reyes lighthouse

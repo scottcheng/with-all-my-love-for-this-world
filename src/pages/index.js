@@ -12,6 +12,7 @@ const collections = [
   "with all my love for this world",
   "the city in my dreams",
   "why don't we dance",
+  "silently",
   // "tree portraits",
 ];
 

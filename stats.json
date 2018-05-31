@@ -9,8 +9,8 @@
       "component---src-pages-with-all-my-love-for-this-world-js-253d5cbd730102142929.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-73674030b9f99250767b.js",
-      "component---src-pages-index-js-73674030b9f99250767b.js.map"
+      "component---src-pages-index-js-d3312cc452cd9d5cd0fe.js",
+      "component---src-pages-index-js-d3312cc452cd9d5cd0fe.js.map"
     ],
     "component---src-pages-the-city-in-my-dreams-js": [
       "component---src-pages-the-city-in-my-dreams-js-fcc1002bfc4e67a149f7.js",
@@ -48,6 +48,14 @@
       "component---src-pages-silently-js-1f10150e0f9e2f32578a.js",
       "component---src-pages-silently-js-1f10150e0f9e2f32578a.js.map"
     ],
+    "component---src-pages-while-we-wait-js": [
+      "component---src-pages-while-we-wait-js-d9c1dbd75b7dd7adfe56.js",
+      "component---src-pages-while-we-wait-js-d9c1dbd75b7dd7adfe56.js.map"
+    ],
+    "path---while-we-wait": [
+      "path---while-we-wait-a0e39f21c11f6a62c5ab.js",
+      "path---while-we-wait-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
@@ -61,9 +69,9 @@
       "path---with-all-my-love-for-this-world-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-d55df43de30386e47c8a.js",
+      "app-dcfd5003cd3f5950658d.js",
       "build-js-styles.css",
-      "app-d55df43de30386e47c8a.js.map",
+      "app-dcfd5003cd3f5950658d.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [

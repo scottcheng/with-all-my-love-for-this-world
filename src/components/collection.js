@@ -19,11 +19,11 @@ const TextFrame = Section.extend`
   text-align: left;
 `;
 
-const isText = s => typeof s === "string" && s.indexOf(".jpg") === -1;
+const isText = (s) => typeof s === "string" && s.indexOf(".jpg") === -1;
 
-const isImage = s => typeof s === "string" && s.indexOf(".jpg") >= 0;
+const isImage = (s) => typeof s === "string" && s.indexOf(".jpg") >= 0;
 
-const isAsterisk = s => typeof s === "string" && s.indexOf("✻") === 0;
+const isAsterisk = (s) => typeof s === "string" && s.indexOf("✻") === 0;
 
 const Item = ({ data, title }) => {
   if (Array.isArray(data) && data.every(isImage)) {
@@ -71,16 +71,22 @@ export default ({ title, content, footnotes }) => (
 
     <Front title={title} />
 
-    {content.map((d, i) => <Item data={d} title={title} key={i} />)}
+    {content.map((d, i) => (
+      <Item data={d} title={title} key={i} />
+    ))}
 
     <div style={{ height: "24em" }} />
 
     {footnotes ? (
-      <Section>{footnotes.map((n, i) => <div key={i}>{n}</div>)}</Section>
+      <Section>
+        {footnotes.map((n, i) => (
+          <div key={i}>{n}</div>
+        ))}
+      </Section>
     ) : null}
 
     <Section>
-      <Link to="/">Back</Link>
+      <Link to={`${__PATH_PREFIX__}`}>Back</Link>
     </Section>
   </div>
 );

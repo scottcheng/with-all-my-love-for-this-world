@@ -1,0 +1,82 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-why-dont-we-dance-js": [
+      "component---src-pages-why-dont-we-dance-js-a59b36d296f6cb8293bf.js",
+      "component---src-pages-why-dont-we-dance-js-a59b36d296f6cb8293bf.js.map"
+    ],
+    "component---src-pages-with-all-my-love-for-this-world-js": [
+      "component---src-pages-with-all-my-love-for-this-world-js-253d5cbd730102142929.js",
+      "component---src-pages-with-all-my-love-for-this-world-js-253d5cbd730102142929.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-91c526987845f0134171.js",
+      "component---src-pages-index-js-91c526987845f0134171.js.map"
+    ],
+    "component---src-pages-the-city-in-my-dreams-js": [
+      "component---src-pages-the-city-in-my-dreams-js-fcc1002bfc4e67a149f7.js",
+      "component---src-pages-the-city-in-my-dreams-js-fcc1002bfc4e67a149f7.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-e331390de5458ed74f22.js",
+      "component---src-layouts-index-js-e331390de5458ed74f22.js.map"
+    ],
+    "path---why-dont-we-dance": [
+      "path---why-dont-we-dance-a0e39f21c11f6a62c5ab.js",
+      "path---why-dont-we-dance-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-19f8265ff536d769d7f7.js",
+      "component---src-pages-404-js-19f8265ff536d769d7f7.js.map"
+    ],
+    "path---the-city-in-my-dreams": [
+      "path---the-city-in-my-dreams-a0e39f21c11f6a62c5ab.js",
+      "path---the-city-in-my-dreams-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "commons": [
+      "commons-c6292b6799a648e0fd1f.js",
+      "commons-c6292b6799a648e0fd1f.js.map"
+    ],
+    "component---src-pages-silently-js": [
+      "component---src-pages-silently-js-1f10150e0f9e2f32578a.js",
+      "component---src-pages-silently-js-1f10150e0f9e2f32578a.js.map"
+    ],
+    "component---src-pages-while-we-wait-js": [
+      "component---src-pages-while-we-wait-js-d9c1dbd75b7dd7adfe56.js",
+      "component---src-pages-while-we-wait-js-d9c1dbd75b7dd7adfe56.js.map"
+    ],
+    "path---while-we-wait": [
+      "path---while-we-wait-a0e39f21c11f6a62c5ab.js",
+      "path---while-we-wait-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---silently": [
+      "path---silently-a0e39f21c11f6a62c5ab.js",
+      "path---silently-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---with-all-my-love-for-this-world": [
+      "path---with-all-my-love-for-this-world-a0e39f21c11f6a62c5ab.js",
+      "path---with-all-my-love-for-this-world-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-15d61953f537254f0ba2.js",
+      "build-js-styles.css",
+      "app-15d61953f537254f0ba2.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}

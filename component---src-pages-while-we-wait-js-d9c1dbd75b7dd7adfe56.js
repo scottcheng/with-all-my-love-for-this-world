@@ -1,0 +1,2 @@
+webpackJsonp([0xa03ce59c0d3a],{222:function(e,t,n){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var l=n(2),o=a(l),p=n(44),u=a(p),g=["DSC05194.jpg","DSC05215.jpg","DSC05197.jpg","DSC05229.jpg","DSC05232.jpg","DSC05234.jpg","DSC05236.jpg","DSC05239.jpg","So, nothing has been lost.","DSC05241.jpg","It's not over at all.","DSC05248.jpg"];t.default=function(){return o.default.createElement(u.default,{title:"while we wait",content:g})},e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-while-we-wait-js-d9c1dbd75b7dd7adfe56.js.map

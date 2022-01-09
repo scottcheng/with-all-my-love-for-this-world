@@ -24,5 +24,5 @@ const Image = styled.img`
 `;
 
 export default ({ src, ...props }) => (
-  <Image src={`${__PATH_PREFIX__}photos/${src}`} {...props} />
+  <Image src={`${__PATH_PREFIX__}/photos/${src}`} {...props} />
 );

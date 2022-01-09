@@ -86,7 +86,7 @@ export default ({ title, content, footnotes }) => (
     ) : null}
 
     <Section>
-      <Link to={`${__PATH_PREFIX__}`}>Back</Link>
+      <Link to={`${__PATH_PREFIX__}/`}>Back</Link>
     </Section>
   </div>
 );

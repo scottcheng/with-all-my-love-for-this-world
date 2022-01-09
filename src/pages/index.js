@@ -28,7 +28,7 @@ export default () => (
     <Section>
       {collections.map((c, i) => (
         <Text key={i}>
-          <Link to={`${__PATH_PREFIX__}${linkify(c)}`}>
+          <Link to={`${__PATH_PREFIX__}/${linkify(c)}`}>
             {pad2Digit(i + 1)}. {c}
           </Link>
         </Text>
